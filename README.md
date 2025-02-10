@@ -1,3 +1,6 @@
-# html-css
+# Welcome to my website
 
-Practice page
+Projects:
+
+[Cheatsheet]
+[My website style guide](./style-guide/index.html)

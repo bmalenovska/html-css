@@ -2,6 +2,6 @@
 
 <h2>Projects:</h2>
 
-[Cheatsheet](./cheatsheet/index.html)
+[My Cheatsheet](./cheatsheet/index.html)
 
-[My website style guide](./style-guide/index.html)
+[My Website Style Guide](./style-guide/index.html)

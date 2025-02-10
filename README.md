@@ -1,6 +1,8 @@
-# Welcome to my website
+<p align="center">
+  <h1>Welcome to My Website</h1>
+</p>
 
-Projects:
+<h2>Projects:</h2>
 
 [Cheatsheet](./cheatsheet/index.html)
 

@@ -1,6 +1,4 @@
-<p align="center">
-  <h1>Welcome to My Website</h1>
-</p>
+<h1>Welcome to My Website</h1>
 
 <h2>Projects:</h2>
 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet</title>
+    <link rel="stylesheet" href="/Users/baibamalenovska/Desktop/Codeacademy/html-css-cheatsheet-starting/styles.css">
+</head>
+<body>
+    <h1>My Cheatsheet</h1>
+    <h2>Different types of CSS selectors</h2>
+    <table>
+        <thead>
+            <tr class="table-header">
+                <th>Selector name</th>
+                <th>What does it select</th>
+                <th>Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="element-selector">Element selector</td>
+                <td>All HTML elements of the specified type.</td>
+                <td>p selects &lt;p&gt;</td>
+            </tr>
+            <tr>
+                <td class="id-selector">ID selector</td>
+                <td>The element on the page with the specified ID. On a given HTML page, each id value should be unique.</td>
+                <td>#my-id selects &lt;p id="my-id"&gt; or &lt;a id="my-id"&gt;</td>
+            </tr>
+            <tr>
+                <td class="class-selector">Class selector</td>
+                <td>The element(s) on the page with the specified class. Multiple instances of the same class can appear on a page.</td>
+                <td>.my-class selects &lt;p class="my-class"&gt; or &lt;a class="my-class"&gt;</td>
+            </tr>
+            <tr>
+                <td class="attribute-selector">Attribute selector</td>
+                <td>The element(s) on the page with the specified attribute.</td>
+                <td>img[src] selects &lt;img src="my-image.png"&gt; but not &lt;img&gt;</td>
+            </tr>
+            <tr>
+                <td class="pseudo-selector">Pseudo-class selector</td>
+                <td>The specified element(s), but only when in the specified state. (For example, when a cursor hovers over a link.)</td>
+                <td>a:hover selects &lt;a&gt; but only when the mouse pointer is hovering over the link.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Breadcrumbs example</h2>
+    <ul class="breadcrumb">
+        <li><a href="#">Asia</a></li>
+        <li><a href="#">Singapore</a></li>
+        <li><a href="#">Tourism</a></li>
+        <li><a href="#">Hotels</a></li>
+        <li><a href="#">Marina Bay Sands</a></li>
+    </ul>
+
+    
+</body>
+</html>

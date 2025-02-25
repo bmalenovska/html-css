@@ -51,7 +51,7 @@ nav ul li a {
 
 /* Mission Section */
 #mission {
-    background-image: url('tea_cozy/resources/images/img-mission-background.jpg');
+    background-image: url('https://github.com/bmalenovska/html-css/blob/main/tea_cozy/resources/images/img-mission-background.jpg?raw=true');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

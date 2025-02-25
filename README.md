@@ -8,7 +8,7 @@
 
 [Website Style Guide](./style-guide/index.html)
 
-[Tea Cozy]
+[Tea Cozy](./tea_cozy/index.html)
 In this project, you will create a fictional tea shop website on your own computer.
 
 

@@ -7,3 +7,9 @@
 [Cheatsheet](./cheatsheet/index.html)
 
 [Website Style Guide](./style-guide/index.html)
+
+[Tea Cozy]
+In this project, you will create a fictional tea shop website on your own computer.
+
+
+

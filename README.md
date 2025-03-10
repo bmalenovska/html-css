@@ -10,7 +10,7 @@
 
 [Tea Cozy](./tea_cozy/index.html)
 
-[Fotomatic] (./Users/baibamalenovska/Desktop/Codecademy/fotomatic_broken/index.html)
+[Fotomatic](./Users/baibamalenovska/Desktop/Codecademy/fotomatic_broken/index.html)
 
 
 

@@ -179,7 +179,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
-  background-image: url('/Users/baibamalenovska/Desktop/Codecademy/fotomatic_broken/resources/images/banner-landingpage.jpg');
+  background-image: url('https://static-assets.codecademy.com/Paths/full-stack-career-journey/Fotomatic/final/resources/images/banner-landingpage.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

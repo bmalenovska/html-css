@@ -1,0 +1,528 @@
+
+/* Universal Styles */
+@font-face {
+  font-family: 'Palatino Custom';
+  src: url('/fonts/palatino.woff2') format('woff2'),
+       url('/fonts/palatino.woff') format('woff');
+  font-style: italic;
+  font-weight: normal;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.main-content {
+  position: relative;
+  top: 5.3125rem; /* To offset for fixed header. */
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+}
+
+@media only screen and (max-width: 760px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+}
+
+/* Header */
+header {
+  position: fixed;
+  width: 100%;      /* Full width */
+  margin: 0;        /* Remove default margin */
+  padding: 0;       /* Remove extra spacing */
+  left: 0;          
+  right: 0;
+  z-index: 1000;    /* Keep header on top */
+  border-bottom: solid 1px #c6c1c1;
+  background-color: white;
+  height: 85px;     /* Fixed height */
+  display: flex;    /* Enables flexbox */
+  align-items: center; /* Vertically centers content */
+}
+
+header .content {
+  display: flex;
+  align-items: center;  /* Ensures all child elements are vertically centered */
+  justify-content: space-between; /* Distributes logo and nav properly */
+  width: 100%;
+  padding: 0 1.875rem; /* Adds horizontal spacing */
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  color: #4A4A4A;
+  font-size: 1.5rem;
+  font-family: 'Roboto Mono Regular', monospace, sans-serif;
+  text-decoration: none;
+  padding: 0; /* Removed extra padding */
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0; /* Remove unnecessary padding */
+  margin: 0; /* Remove unwanted spacing */
+}
+
+nav li {
+  padding-left: 3.5rem;
+}
+
+nav a {
+  font-size: 1rem;
+  color: #4a4a4a;
+  font-family: 'Roboto Regular', sans-serif;
+  text-decoration: none;
+  padding: 10px 0; /* Adjusted padding for proper alignment */
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  color: #4A4A4A;
+  font-size: 1.5rem;
+  font-family: 'Roboto Mono Regular', monospace, sans-serif;
+  text-decoration: none;
+  padding: 0; /* Removed extra padding */
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0; /* Remove unnecessary padding */
+  margin: 0; /* Remove unwanted spacing */
+}
+
+nav li {
+  padding-left: 3.5rem;
+}
+
+nav a {
+  font-size: 1rem;
+  color: #4a4a4a;
+  font-family: 'Roboto Regular', sans-serif;
+  text-decoration: none;
+  padding: 10px 0; /* Adjusted padding for proper alignment */
+}
+
+
+header .icon {
+  width: 1rem;
+  padding-left: .75rem;
+}
+
+header .mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+  header .content {
+    padding: .5rem 0;
+  }
+
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  header .mobile li {
+    padding: 0;
+  }
+
+  header .mobile .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+}
+
+
+body {
+  margin: 0;
+}
+
+/* Sign Up Section */
+
+#sign-up-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 43.5rem;
+  background-image: url('/Users/baibamalenovska/Desktop/Codecademy/fotomatic_broken/resources/images/banner-landingpage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#sign-up-cta {
+  position: relative; /*moves the box lower and more to the right*/ 
+  top: 170px; /*moves the box lower*/
+  left: 100px; /*moves the box more to the right*/
+  bottom: 170px;
+  padding: 0 5rem 0 5rem;
+  border: solid 1px #979797;
+  border-radius: 4px;
+  background-color: #9dc20a; 
+}
+
+#sign-up-cta .content {
+  width: 25.625rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: white;
+}
+
+#sign-up-cta h1 {
+  font-size: 3.125rem;
+  line-height: 1.4;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 1.625rem;
+}
+
+#sign-up-cta h2 {
+  font-size: 2.25rem;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 2rem;
+  padding-bottom: 0.75rem;
+}
+
+#sign-up-cta span strong {
+  font-weight: bold;
+}
+
+#sign-up-cta .cursive {
+  font-family: "Damion", cursive;
+  position: relative;
+}
+
+#sign-up-cta .striking {
+  font-family: "Rubik", sans-serif;
+  padding-bottom: .75rem;
+}
+
+#sign-up-cta .email {
+  margin-top: 1.625rem;
+}
+
+#sign-up-cta .button {
+  margin-top: 1.625rem;
+  margin-bottom: 3.5rem;
+  padding: 1.25rem 7.25rem;
+  color: white;
+  font-family: 'Roboto Medium', sans-serif;
+  line-height: 1.4;
+  background-color:#4A4A4A;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  
+}
+
+
+@media only screen and (max-width: 760px) {
+  #sign-up-section {
+    align-items: center;
+    justify-content: center;
+    height: 28rem;
+    background-size: contain; /* Ensures full visibility of the image */
+    background-attachment: scroll;
+  }
+
+  #sign-up-cta {
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+  }
+
+  #sign-up-cta .content {
+    margin-top: 0;
+  }
+
+  #sign-up-cta .email {
+    display: none;
+  }
+
+  #sign-up-cta h1 {
+    font-size: 3.125rem;
+  }
+
+  #sign-up-cta h2 {
+    font-size: 2.25rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #sign-up-section {
+    height: 20rem;
+    background-size: cover; /* Keeps it full-screen */
+    background-position: top center;
+  }
+
+  #sign-up-cta h1 {
+    font-size: 2.25rem;
+  }
+
+  #sign-up-cta h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Features Section */
+
+#features-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 5%;
+  padding-bottom: 2.875rem;
+  background-color: #f3f3f3;
+}
+
+.feature {
+  flex: 1;
+  padding: 2rem;
+  margin: 0px 1.25rem;
+  background-color: white;
+}
+
+.feature .image-container {
+  display: block;
+  max-width: 90%;
+  max-height: 65%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.feature img {
+  display: block; /* MAKES IMAGES SMALLER!!!!*/
+  height: auto; /* MAKES IMAGES SMALLER!!!!*/
+  max-width: 100%; /* MAKES IMAGES SMALLER!!!!*/
+}
+
+
+.feature h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  line-height: 1.2;
+  font-family: 'Roboto', sans-serif;
+}
+
+.feature h3 {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: lighter;
+  color: #4a4a4a;
+}
+
+@media only screen and (max-width: 890px) {
+  .feature h2 {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    font-weight: normal;
+  }
+
+  .feature h3 {
+    font-size: .875rem;
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  #features-section {
+    flex-flow: column;
+    padding: 0;
+  }
+
+  .feature {
+    margin: 0;
+    padding: 1.25rem 1rem 0 1rem;
+  }
+}
+
+/* Filters Section */
+
+#filters-section {
+  padding-top: 4rem;
+  background-color: #4a4a4a;
+}
+
+#filters-section .content {
+  padding: 0;
+}
+
+#filters-section .content h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: white;
+  opacity: 100%;
+  font-family: 'Roboto';
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#filters-section .content h3 {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: lighter;
+  color: white;
+  font-family: 'Roboto';
+}
+
+#filters-section .images-container {
+  display: flex; /*places imgs in one row*/
+  justify-content: space-between;
+  align-items: center;      /* Aligns images properly */        /* Prevents overflow on small screens */
+  max-width: 100%;
+  margin: 0;
+  padding: 5rem 1% 4rem 1%;
+}
+
+#filters-section .images-container img {
+  width: 100%;      /* Ensures images span full width */
+  max-width: 100%;   /* Each image takes about 1/3 of the row */
+  height: auto;     /* Keeps aspect ratio */
+  object-fit: cover; /* Ensures images fill their boxes properly */
+}
+
+@media only screen and (max-width: 760px) {
+  #filters-section {
+    padding: 1.5rem 0 0 0;
+  }
+
+  #filters-section .content {
+    margin-bottom: 1rem;
+  }
+
+  #filters-section .content h2 {
+    padding-bottom: .625rem;
+    font-size: 1.125rem;
+    line-height: 1.3;
+    font-weight: normal;
+  }
+
+  #filters-section .content h3 {
+    font-size: .875rem;
+    line-height: 1.4;
+  }
+
+  #filters-section .images-container {
+    padding: 0;
+  }
+
+  #filters-section .extra {
+    display: none;
+  }
+}
+
+/* Quotes Section */
+
+#quotes-section {
+  background-color: #f3f3f3;
+  padding: 5rem;
+  padding-right: 30px;
+}
+
+#quotes-section content {
+  padding: 5rem 0;
+}
+
+
+#quotes-section .quote {
+  padding-right: 1.875rem;
+  font-family: 'Palatino', serif;
+  font-size: 1.875rem;
+  line-height: 1.1;
+  font-style: italic;
+  color: #4a4a4a;
+
+}
+
+#quotes-section quote-citation {
+  height: 1.875rem;
+}
+
+@media only screen and (max-width: 760px) {
+  #quotes-section content {
+    padding: 1.875rem .625rem;
+  }
+
+  #quotes-section quote {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  #quotes-section quote-citation {
+    display: block;
+    padding-top: 1rem;
+    margin: auto;
+  }
+}
+
+/* Footer */
+
+footer {
+  background-color: #9b9b9b;
+  padding: 1.5rem 2rem;
+}
+
+footer .content {
+  color: white;
+  display: flex;
+  font-size: .75rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer .copyright {
+  flex-grow: 1;
+  font-size: .75rem;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 2rem;
+  margin: 0;
+}
+
+footer .location {
+  text-align: right;
+  font-size: .75rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 760px) {
+  footer .content {
+    font-size: .625rem;
+  }
+}

@@ -10,7 +10,7 @@
 
 [Tea Cozy](./tea_cozy/index.html)
 
-[Fotomatic](./fotomatic/index.html)
+[Fotomatic](./fotomatic_broken/index.html)
 
 
 

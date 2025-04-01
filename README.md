@@ -12,5 +12,5 @@
 
 [Fotomatic](./fotomatic_broken/index.html)
 
-[Happy Paws]
+[Happy Paws](./happy_paws/index.html)
 

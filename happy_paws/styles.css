@@ -58,6 +58,8 @@ body {
 
 .service-item img, .team-member img {
     width: 100%;
+    height: 200px;  /* Set uniform height for all images */
+    object-fit: cover;  /* Make the images cover the container area while maintaining aspect ratio */
     border-radius: 10px;
 }
 

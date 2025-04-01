@@ -26,6 +26,12 @@ body {
     font-weight: bold;
 }
 
+.navbar .logo {
+    font-size: 36px;  /* Increased font size for the logo */
+    font-weight: bold;
+    color: #333;  /* Adjust the color of the text if necessary */
+}
+
 .hero {
     padding: 50px;
     background-color: #ffeb99;
